@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+
+        input {
+            margin: 10px 0;
+        }
+
+     
+    </style>
+</head>
+
+<body>
+    <form action="submit">
+        <input type="text" id="name" name="name" placeholder="name" />
+        <input type="text" id="nickname" name="nickname" placeholder="nickname" />
+        <input type="text" id="hobbie" name="hobbie" placeholder="hobbie" />
+        <span id="messageToDisplay"></span>
+        <button>submit</button>
+    </form>
+</body>
+<script lang="js">
+    // Ecrivez une fonction JavaScript qui valide les données du formulaire et
+    // si la valeur contenue dans les input n'est pas : name : Polux, nickname: Tournicoti, hobbie: dancing 
+    // un message écrit en rouge et de font-size: 0.8em doit s'afficher dans la span.
+    // si c'est bon un message écrit en vert doit s'afficher dans la span
+
+    let form = document.getElementsByTagName('form')[0];
+    let button = document.getElementsByTagName('button')[0];
+
+</script>
+
+</html>
